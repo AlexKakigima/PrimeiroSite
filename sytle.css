@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: orange;
+   font-family: 'Roboto', sans-serif;;
+    }
+  
+  ul {
+    list-style: none;
+  }
+  header{
+    padding: 32px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header,
+  section{
+      margin: 0 auto;
+      max-width: 300px;
+   
+  }
+  section h2{
+    background-color: white;
+    text-align: center;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  ul li{
+    margin-bottom: 16px;
+    display: flex;
+  }
+    li .detalhe{
+      max-width: 240px;
+      
+     
+    }
+    h1,h2,h3,.preco{
+      font-family:  'Roboto Serif';
+      text-transform: uppercase;
+      
+    }
+    h3,.preco{
+      font-size: 16px;
+    }
+    li .descriçao{
+      font-size: 14px;
+    }
+    h1{
+      font-size: 28px;
+    }
+  
+  
+  
